@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // your secret from Render
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 app.post('/generate-plan', async (req, res) => {
   const { marketingNeed } = req.body;

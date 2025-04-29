@@ -1,10 +1,9 @@
-# Marketing Plan Server
+# Marketing Plan Server (Fixed Version)
 
-This server generates a 90-day marketing plan using OpenAI GPT.
+This version specifies Node.js runtime for Render hosting.
 
-To deploy:
-- Upload this to GitHub
-- Connect GitHub repo to Render
-- Add environment variable: OPENAI_API_KEY
-
-Server will run and listen on /generate-plan
+Deploy Steps:
+- Upload to GitHub
+- Deploy on Render
+- Render will now use Node.js 18.x automatically
+- Add environment variable OPENAI_API_KEY
